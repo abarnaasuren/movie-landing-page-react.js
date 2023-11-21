@@ -30,10 +30,10 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Ansal Punya Film</h1>
+        <h1>MOVIE LANDING PAGE</h1>
         <input className="Movie-search"
           type="text"
-          placeholder="Ketik untuk Cari Film . . ."
+          placeholder="search movie title . . ."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           onKeyPress={handleKeyPress}
